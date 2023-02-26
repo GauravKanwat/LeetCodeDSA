@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basic1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConcateArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenInElemArray1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenInElemArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenInElementsArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PermutationArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RichestCustomerWealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunningSumOf1DArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
