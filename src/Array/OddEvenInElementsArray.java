@@ -1,3 +1,5 @@
+package Array;
+
 public class OddEvenInElementsArray {
     public static void main(String[] args) {
         int[] nums = {12, 345, 2, 6, 7892};
