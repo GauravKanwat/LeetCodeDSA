@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/FirstAndLastPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/FloorOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/SmallestLetterGreaterThanTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
