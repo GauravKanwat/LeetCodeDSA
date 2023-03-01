@@ -1,21 +1,20 @@
 package BinarySearchProblems;
 
-public class CeilingOfANumber {
+public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 5, 9, 14, 16, 18};
-        int target = 4;
-        int ceil = ceiling(arr, target);
-        System.out.println(ceil);
+        int[] arr = {-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
+        int target = 0;
+        int result = binarySearch(arr, target);
+        System.out.println(result);
     }
-    static int ceiling(int[] arr, int target) {
+
+    static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length-1;
-        if(target > arr[end])
-            return -1;
         while(start <= end) {
             int mid = start + (end - start) / 2;
             if(target == arr[mid])
-                return arr[mid];
+                return mid;
             else if(target < arr[mid]) {
                 end = mid - 1;
             }
@@ -23,6 +22,6 @@ public class CeilingOfANumber {
                 start = mid + 1;
             }
         }
-        return arr[start];
+        return -1;
     }
 }

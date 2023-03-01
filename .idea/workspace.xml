@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ShuffleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/FirstAndLastPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/FloorOfANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/SmallestLetterGreaterThanTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Basic1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcateArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ConcateArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddEvenInElemArray1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/OddEvenInElemArray1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddEvenInElemArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/OddEvenInElemArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddEvenInElementsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/OddEvenInElementsArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PermutationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/PermutationArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RichestCustomerWealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RichestCustomerWealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunningSumOf1DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RunningSumOf1DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +48,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShuffleArray">
-    <configuration name="Basic1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Basic1" />
+  <component name="RunManager" selected="Application.FirstAndLastPosition">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.BinarySearch" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,12 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ShuffleArray" />
+    <configuration name="FirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.FirstAndLastPosition" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="BinarySearchProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FloorOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.FloorOfANumber" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestLetterGreaterThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.SmallestLetterGreaterThanTarget" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShuffleArray" />
+        <item itemvalue="Application.FirstAndLastPosition" />
+        <item itemvalue="Application.SmallestLetterGreaterThanTarget" />
+        <item itemvalue="Application.FloorOfANumber" />
         <item itemvalue="Application.CeilingOfANumber" />
-        <item itemvalue="Application.Basic1" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
