@@ -23,9 +23,21 @@ public class SearchInDupRotatedArray {
                 return mid;
             else if(mid > start && arr[mid] < arr[mid - 1])
                 return mid - 1;
-            else if(arr[start] < arr[mid])
+            else if(arr[mid] == arr[start] && arr[mid] == arr[end]) {
+                //check whether start is pivot
+                if(arr[start] > arr[start + 1])
+                    return start;
+                start++;
+                //check whether end - 1 is pivot
+                if(arr[end] < arr[end - 1])
+                    return end - 1;
+                end--;
+            }
+            else if(arr[start] < arr[mid] || arr[start] == arr[mid] && arr[mid] > arr[end]) {
                 start = mid + 1;
-            else end = mid - 1;
+            } else {
+                end = mid - 1;
+            }
         }
         return -1;
     }
