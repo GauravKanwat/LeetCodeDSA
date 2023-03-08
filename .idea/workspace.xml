@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/SearchingIn2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/RotationCountInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblems/SplitArrayLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/SearchIn2dSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/bubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInDupRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInDupRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/TwoDArray/SearchingIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/TwoDArray/SearchingIn2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/TwoDArray/Sorted2DArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,52 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/media/gaurav/New Volume1/Projects/LeetCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/gaurav/New Volume1/Projects/LeetCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchingIn2DArray">
-    <configuration name="KthMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.KthMissingNumber" />
+  <component name="RunManager" selected="Application.bubbleSort">
+    <configuration name="SearchIn2dSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.SearchIn2dSortedMatrix" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotationCountInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.RotationCountInRotatedArray" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearchProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInDupRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.SearchInDupRotatedArray" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearchProblems.*" />
+          <option name="PATTERN" value="Array.TwoDArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +63,19 @@
     </configuration>
     <configuration name="SearchingIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.SearchingIn2DArray" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.TwoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorted2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.Sorted2DArray" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.bubbleSort" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bubbleSort" />
+        <item itemvalue="Application.SearchIn2dSortedMatrix" />
         <item itemvalue="Application.SearchingIn2DArray" />
+        <item itemvalue="Application.Sorted2DArray" />
         <item itemvalue="Application.SplitArrayLargestSum" />
-        <item itemvalue="Application.KthMissingNumber" />
-        <item itemvalue="Application.RotationCountInRotatedArray" />
-        <item itemvalue="Application.SearchInDupRotatedArray" />
       </list>
     </recent_temporary>
   </component>
