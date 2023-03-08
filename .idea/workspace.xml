@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/SearchIn2dSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/bubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/EfficientBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/EfficientBubbleSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/TwoDArray/SearchingIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/TwoDArray/SearchingIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/TwoDArray/Sorted2DArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,33 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bubbleSort">
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.EfficientBubbleSort" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EfficientBubbleSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.EfficientBubbleSort2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchIn2dSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.SearchIn2dSortedMatrix" />
       <module name="LeetCode" />
@@ -61,38 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchingIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.SearchingIn2DArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.TwoDArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sorted2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.Sorted2DArray" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.TwoDArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SplitArrayLargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchProblems.SplitArrayLargestSum" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearchProblems.*" />
+          <option name="PATTERN" value="SortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.EfficientBubbleSort2" />
+        <item itemvalue="Application.EfficientBubbleSort" />
         <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.SearchIn2dSortedMatrix" />
-        <item itemvalue="Application.SearchingIn2DArray" />
-        <item itemvalue="Application.Sorted2DArray" />
-        <item itemvalue="Application.SplitArrayLargestSum" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +132,20 @@
       <updated>1677421396981</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
+          <line>11</line>
+          <properties class="SortingAlgorithms.SelectionSort" method="selectionSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
