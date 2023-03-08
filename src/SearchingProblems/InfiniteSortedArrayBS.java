@@ -1,4 +1,4 @@
-package BinarySearchProblems;
+package SearchingProblems;
 
 public class InfiniteSortedArrayBS {
     public static void main(String[] args) {

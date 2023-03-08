@@ -1,4 +1,4 @@
-package BinarySearchProblems;
+package SearchingProblems;
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 public class SmallestLetterGreaterThanTarget {
     public static void main(String[] args) {

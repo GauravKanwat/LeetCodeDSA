@@ -1,4 +1,4 @@
-package BinarySearchProblems;
+package SearchingProblems;
 
 public class OrderAgnosticArray {
     public static void main(String[] args) {

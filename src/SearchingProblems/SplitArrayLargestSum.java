@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/split-array-largest-sum/
-package BinarySearchProblems;
-
-import java.util.Arrays;
+package SearchingProblems;
 
 public class SplitArrayLargestSum {
     public static void main(String[] args) {

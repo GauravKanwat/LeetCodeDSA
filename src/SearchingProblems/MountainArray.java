@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/
-package BinarySearchProblems;
+package SearchingProblems;
 
 public class MountainArray {
     public static void main(String[] args) {

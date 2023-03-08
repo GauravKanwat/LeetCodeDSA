@@ -1,16 +1,17 @@
-package BinarySearchProblems;
+package SearchingProblems;
 
-public class CeilingOfANumber {
+public class FloorOfANumber {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 5, 9, 14, 16, 18};
+        int[] arr = {2,3,5,9,14,16,18};
         int target = 4;
-        int ceil = ceiling(arr, target);
-        System.out.println(ceil);
+        int result = floor(arr, target);
+        System.out.println(result);
     }
-    static int ceiling(int[] arr, int target) {
+
+    static int floor(int[] arr, int target) {
         int start = 0;
         int end = arr.length-1;
-        if(target > arr[end])
+        if(target < arr[start])
             return -1;
         while(start <= end) {
             int mid = start + (end - start) / 2;
@@ -23,6 +24,6 @@ public class CeilingOfANumber {
                 start = mid + 1;
             }
         }
-        return arr[start];
+        return arr[end];
     }
 }

@@ -1,4 +1,4 @@
-package BinarySearchProblems;
+package SearchingProblems;
 
 public class RotationCountInRotatedArray {
     public static void main(String[] args) {

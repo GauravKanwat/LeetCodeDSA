@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/find-in-mountain-array/
-package BinarySearchProblems;
+package SearchingProblems;
 
 public class SearchInMountain {
     public static void main(String[] args) {

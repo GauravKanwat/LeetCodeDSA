@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/EfficientBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/EfficientBubbleSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/KidsWithGreatestNoOfCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/CeilingOfANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/FirstAndLastPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/FirstAndLastPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/FloorOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/FloorOfANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/InfiniteSortedArrayBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/InfiniteSortedArrayBS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/MountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/MountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/OrderAgnosticArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/OrderAgnosticArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/RotationCountInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/RotationCountInRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInDupRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInDupRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInMountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInMountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SmallestLetterGreaterThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SmallestLetterGreaterThanTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SplitArrayLargestSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.KidsWithGreatestNoOfCandies">
     <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.EfficientBubbleSort" />
       <module name="LeetCode" />
@@ -73,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIn2dSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.SearchIn2dSortedMatrix" />
+    <configuration name="KidsWithGreatestNoOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingProblems.KidsWithGreatestNoOfCandies" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.TwoDArray.*" />
+          <option name="PATTERN" value="SearchingProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KidsWithGreatestNoOfCandies" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.EfficientBubbleSort2" />
         <item itemvalue="Application.EfficientBubbleSort" />
         <item itemvalue="Application.bubbleSort" />
-        <item itemvalue="Application.SearchIn2dSortedMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -132,20 +143,5 @@
       <updated>1677421396981</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
-          <line>11</line>
-          <properties class="SortingAlgorithms.SelectionSort" method="selectionSort">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
