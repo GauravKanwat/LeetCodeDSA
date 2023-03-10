@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/KidsWithGreatestNoOfCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/CountItemsMatchingARule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/NumberOfGoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Pangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SmallerThanCurrentNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TargetArrayInGivenOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/GuessNoHigherOrLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/CeilingOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/CeilingOfANumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/FirstAndLastPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/FirstAndLastPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/FloorOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/FloorOfANumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/InfiniteSortedArrayBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/InfiniteSortedArrayBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/MountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/MountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/OrderAgnosticArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/OrderAgnosticArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/RotationCountInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/RotationCountInRotatedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInDupRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInDupRotatedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInMountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInMountain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SearchInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SearchInRotatedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SmallestLetterGreaterThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SmallestLetterGreaterThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchProblems/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingProblems/SplitArrayLargestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/RunningSumOf1DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RunningSumOf1DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/ShuffleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ShuffleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,48 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/gaurav/New Volume1/Projects/LeetCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/media/gaurav/New Volume/Projects/LeetCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KidsWithGreatestNoOfCandies">
-    <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.EfficientBubbleSort" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EfficientBubbleSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.EfficientBubbleSort2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KidsWithGreatestNoOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingProblems.KidsWithGreatestNoOfCandies" />
+  <component name="RunManager" selected="Application.GuessNoHigherOrLower">
+    <configuration name="GuessNoHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingProblems.GuessNoHigherOrLower" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
+    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.NumberOfGoodPairs" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +80,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.bubbleSort" />
+    <configuration name="SmallerThanCurrentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SmallerThanCurrentNumber" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingProblems.SquareRoot" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchingProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetArrayInGivenOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TargetArrayInGivenOrder" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KidsWithGreatestNoOfCandies" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.EfficientBubbleSort2" />
-        <item itemvalue="Application.EfficientBubbleSort" />
-        <item itemvalue="Application.bubbleSort" />
+        <item itemvalue="Application.GuessNoHigherOrLower" />
+        <item itemvalue="Application.SquareRoot" />
+        <item itemvalue="Application.TargetArrayInGivenOrder" />
+        <item itemvalue="Application.SmallerThanCurrentNumber" />
+        <item itemvalue="Application.NumberOfGoodPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -143,5 +139,8 @@
       <updated>1677421396981</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

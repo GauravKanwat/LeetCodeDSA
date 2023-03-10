@@ -4,18 +4,17 @@ import java.util.Arrays;
 
 public class ShuffleArray {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,4,3,2,1};
-        shuffleArray(nums);
+        int[] nums = {2,5,1,3,4,7};
+        int n = 3;
+        System.out.println(Arrays.toString(shuffleArray(nums, n)));
     }
-    static void shuffleArray(int[] nums) {
-        int mid = nums.length / 2;
-        int[] arr = new int[nums.length];
-        int i = 0;
-        while(i < nums.length-2) {
-            arr[i] = nums[i];
-            arr[i+1] = nums[mid + i + 1];
-            i += 1;
+
+    static int[] shuffleArray(int[] nums, int n) {
+        int[] result = new int[nums.length];
+        for (int i = 0; i < n; i++) {
+            result[2 * i] = nums[i];
+            result[2 * i + 1] = nums[n + i];
         }
-        System.out.println(Arrays.toString(arr));
+        return result;
     }
 }
