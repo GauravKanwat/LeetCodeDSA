@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6833102-5349-45b7-a77d-173cc2353fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/CountItemsMatchingARule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/NumberOfGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Pangram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/SmallerThanCurrentNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/TargetArrayInGivenOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/GuessNoHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingProblems/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/AddToArrayForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/HighestAltitude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/DiagonalSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/FlipAndInvertImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TwoDArray/TransposeMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/RunningSumOf1DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RunningSumOf1DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ShuffleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ShuffleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +49,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessNoHigherOrLower">
-    <configuration name="GuessNoHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingProblems.GuessNoHigherOrLower" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SearchingProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.NumberOfGoodPairs" />
+  <component name="RunManager" selected="Application.AddToArrayForm">
+    <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.AddToArrayForm" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +63,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallerThanCurrentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SmallerThanCurrentNumber" />
+    <configuration name="DiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.DiagonalSum" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.TwoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipAndInvertImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.FlipAndInvertImage" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.TwoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.HighestAltitude" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -93,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingProblems.SquareRoot" />
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoDArray.TransposeMatrix" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SearchingProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TargetArrayInGivenOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TargetArrayInGivenOrder" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Array.TwoDArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessNoHigherOrLower" />
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.TargetArrayInGivenOrder" />
-        <item itemvalue="Application.SmallerThanCurrentNumber" />
-        <item itemvalue="Application.NumberOfGoodPairs" />
+        <item itemvalue="Application.AddToArrayForm" />
+        <item itemvalue="Application.TransposeMatrix" />
+        <item itemvalue="Application.DiagonalSum" />
+        <item itemvalue="Application.FlipAndInvertImage" />
+        <item itemvalue="Application.HighestAltitude" />
       </list>
     </recent_temporary>
   </component>
