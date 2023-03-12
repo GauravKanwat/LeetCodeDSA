@@ -10,15 +10,24 @@ public class SelectionSort {
     }
 
     static void selectionSort(int[] arr) {
-        int smallest = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if(smallest > arr[j])
-                    smallest = arr[j];
-                int temp = arr[j];
-                arr[i] = smallest;
-                arr[j] = temp;
-            }
+            int last = arr.length - 1 - i;
+            int maxIndex = getMaxIndex(arr, 0, last);
+            swapNumbers(arr, maxIndex, last);
         }
+    }
+
+    static void swapNumbers(int[] arr, int first, int second) {
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second] = temp;
+    }
+    static int getMaxIndex(int[] arr, int start, int last) {
+        int max = start;
+        for (int i = start; i <= last; i++) {
+            if(arr[max] < arr[i])
+                max = i;
+        }
+        return max;
     }
 }
